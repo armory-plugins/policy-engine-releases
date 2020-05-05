@@ -1,2 +1,17 @@
 [
+    {
+      "id": "Armory.PolicyEngine",
+      "description": "This plugin provides support for validating pipelines with the policy engine.",
+      "provider": "https://github.com/claymccoy",
+      "releases": [
+        {
+          "version": "0.0.7",
+          "date": "2020-05-05T20:27:24.526Z",
+          "requires": "front50>=0.0.0,orca>=0.0.0",
+          "sha512sum": "afe296681a7aef6483f3c516676f7a8491fa661761f833d2ac1bd4483847a318901411ec4c4d4c62d4b05fba280a9ea91619016536c2a876c9d4f85d11fa28a5",
+          "state": "RELEASE",
+          "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.7/policy-engine-v0.0.7.zip"
+        }
+      ]
+    }
   ]
