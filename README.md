@@ -27,7 +27,7 @@ _It should be noted that the plugins framework for Spinnaker is still in active 
           plugins:
               Armory.PolicyEngine:
                 enabled: true
-                version: 0.0.7
+                version: 0.0.8
                 extensions:
                   armory.policyEngine:
                     enabled: true
@@ -35,7 +35,7 @@ _It should be noted that the plugins framework for Spinnaker is still in active 
                       baseUrl: http://opa.spinnaker:8181/v1
           repositories:
             armory:
-              url: https://raw.githubusercontent.com/armory-plugins/pluginRepository/master/repositories.json
+              url: https://raw.githubusercontent.com/armory-plugins/policy-engine-releases/master/repositories.json
     ```
     
     This plugin provides policy hooks across 3 services in Spinnaker: Front50, Orca and Clouddriver. If you'd like to enable only part of it, you can add the above block to 1 or more of the `.hal/default/profiles/{serviceName}-local.yaml` configuration files if you're using Halyard to install Spinnaker. 
