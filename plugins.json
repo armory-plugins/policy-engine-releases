@@ -13,14 +13,6 @@
           "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.14-rc3/policy-engine-v0.0.14-rc3.zip"
         },
         {
-          "version": "0.0.014-rc3",
-          "date": "2020-07-17T16:06:35.780Z",
-          "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
-          "sha512sum": "2aec57c0bb5a8640c36f3948356e7af88dfbfffe6bbd598a3cc4156dd1f6f8d1dc3b5877f50cf7b5602e1e36193e4cfbc2c976f15ac4dc2e5c437d6cbf25b4a6",
-          "state": "RELEASE",
-          "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.014-rc3/policy-engine-v0.0.014-rc3.zip"
-        },
-        {
           "version": "0.0.13",
           "date": "2020-06-24T15:49:45.918Z",
           "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
