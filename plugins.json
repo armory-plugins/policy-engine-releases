@@ -10,7 +10,7 @@
         "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
         "sha512sum": "3f1162e59555e1ef4c4a9a6e832ece130786c7715a49cd5b6cb47eddb07de5834b7261cb0c624c6c8268f75d4495df98133c7c8524fe1d97f0d2e1ac41081724",
         "state": "RELEASE",
-        "url": "https://github.com/armory-plugins/policy-engine/releases/download/v0.0.15/policy-engine-v0.0.15.zip"
+        "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.15/policy-engine-v0.0.15.zip"
       },
       {
         "version": "0.0.14-rc3",
