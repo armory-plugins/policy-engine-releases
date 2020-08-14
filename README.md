@@ -27,12 +27,13 @@ _It should be noted that the plugins framework for Spinnaker is still in active 
           plugins:
               Armory.PolicyEngine:
                 enabled: true
-                version: 0.0.8
+                version: 0.0.13
                 extensions:
                   armory.policyEngine:
                     enabled: true
                     config:
-                      baseUrl: http://opa.spinnaker:8181/v1
+                      opa: 
+                        baseUrl: http://opa.spinnaker:8181/v1
           repositories:
             armory:
               url: https://raw.githubusercontent.com/armory-plugins/policy-engine-releases/master/repositories.json
