@@ -1,0 +1,1257 @@
+{
+  "id": "Armory.PolicyEngine",
+  "releases": [
+    {
+      "compatibility": [
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212030017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212020017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.4",
+            "1.23.3"
+          ],
+          "service": "clouddriver",
+          "version": "7.0.3-20201201114456"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.2-20201201112312"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.2"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.1-20201012160101"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "orca",
+          "version": "2.18.0-20201208200018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4"
+          ],
+          "service": "orca",
+          "version": "2.17.1-20201208101954"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "orca",
+          "version": "2.17.0-20201014010017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4"
+          ],
+          "service": "orca",
+          "version": "2.16.1-20201208040018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.3",
+            "1.22.2",
+            "1.22.1",
+            "1.22.0"
+          ],
+          "service": "orca",
+          "version": "2.16.0-20200817170018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "front50",
+          "version": "0.26.1-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4",
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "front50",
+          "version": "0.26.0-20201013163321"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3",
+            "1.22.2",
+            "1.22.1"
+          ],
+          "service": "front50",
+          "version": "0.25.1-20200831095512"
+        }
+      ],
+      "version": "0.0.14-rc3"
+    },
+    {
+      "compatibility": [
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212030017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212020017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.4",
+            "1.23.3"
+          ],
+          "service": "clouddriver",
+          "version": "7.0.3-20201201114456"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.2-20201201112312"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.2"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.1-20201012160101"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "orca",
+          "version": "2.18.0-20201208200018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4"
+          ],
+          "service": "orca",
+          "version": "2.17.1-20201208101954"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "orca",
+          "version": "2.17.0-20201014010017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4"
+          ],
+          "service": "orca",
+          "version": "2.16.1-20201208040018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.3",
+            "1.22.2",
+            "1.22.1",
+            "1.22.0"
+          ],
+          "service": "orca",
+          "version": "2.16.0-20200817170018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "front50",
+          "version": "0.26.1-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4",
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "front50",
+          "version": "0.26.0-20201013163321"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3",
+            "1.22.2",
+            "1.22.1"
+          ],
+          "service": "front50",
+          "version": "0.25.1-20200831095512"
+        }
+      ],
+      "version": "0.0.14-rc1"
+    },
+    {
+      "compatibility": [
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212030017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212020017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.4",
+            "1.23.3"
+          ],
+          "service": "clouddriver",
+          "version": "7.0.3-20201201114456"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.2-20201201112312"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.2"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.1-20201012160101"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "orca",
+          "version": "2.18.0-20201208200018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4"
+          ],
+          "service": "orca",
+          "version": "2.17.1-20201208101954"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "orca",
+          "version": "2.17.0-20201014010017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4"
+          ],
+          "service": "orca",
+          "version": "2.16.1-20201208040018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.3",
+            "1.22.2",
+            "1.22.1",
+            "1.22.0"
+          ],
+          "service": "orca",
+          "version": "2.16.0-20200817170018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "front50",
+          "version": "0.26.1-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4",
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "front50",
+          "version": "0.26.0-20201013163321"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3",
+            "1.22.2",
+            "1.22.1"
+          ],
+          "service": "front50",
+          "version": "0.25.1-20200831095512"
+        }
+      ],
+      "version": "0.0.14-RC2"
+    },
+    {
+      "compatibility": [
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212030017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212020017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.4",
+            "1.23.3"
+          ],
+          "service": "clouddriver",
+          "version": "7.0.3-20201201114456"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.2-20201201112312"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.2"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.1-20201012160101"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "orca",
+          "version": "2.18.0-20201208200018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4"
+          ],
+          "service": "orca",
+          "version": "2.17.1-20201208101954"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "orca",
+          "version": "2.17.0-20201014010017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4"
+          ],
+          "service": "orca",
+          "version": "2.16.1-20201208040018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.3",
+            "1.22.2",
+            "1.22.1",
+            "1.22.0"
+          ],
+          "service": "orca",
+          "version": "2.16.0-20200817170018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "front50",
+          "version": "0.26.1-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4",
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "front50",
+          "version": "0.26.0-20201013163321"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3",
+            "1.22.2",
+            "1.22.1"
+          ],
+          "service": "front50",
+          "version": "0.25.1-20200831095512"
+        }
+      ],
+      "version": "0.0.014-rc3"
+    },
+    {
+      "compatibility": [
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212030017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212020017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.4",
+            "1.23.3"
+          ],
+          "service": "clouddriver",
+          "version": "7.0.3-20201201114456"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.2-20201201112312"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.2"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.1-20201012160101"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "orca",
+          "version": "2.18.0-20201208200018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4"
+          ],
+          "service": "orca",
+          "version": "2.17.1-20201208101954"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "orca",
+          "version": "2.17.0-20201014010017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4"
+          ],
+          "service": "orca",
+          "version": "2.16.1-20201208040018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.3",
+            "1.22.2",
+            "1.22.1",
+            "1.22.0"
+          ],
+          "service": "orca",
+          "version": "2.16.0-20200817170018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "front50",
+          "version": "0.26.1-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4",
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "front50",
+          "version": "0.26.0-20201013163321"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3",
+            "1.22.2",
+            "1.22.1"
+          ],
+          "service": "front50",
+          "version": "0.25.1-20200831095512"
+        }
+      ],
+      "version": "0.0.16"
+    },
+    {
+      "compatibility": [
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212030017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212020017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.4",
+            "1.23.3"
+          ],
+          "service": "clouddriver",
+          "version": "7.0.3-20201201114456"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.2-20201201112312"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.2"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.1-20201012160101"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "orca",
+          "version": "2.18.0-20201208200018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4"
+          ],
+          "service": "orca",
+          "version": "2.17.1-20201208101954"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "orca",
+          "version": "2.17.0-20201014010017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4"
+          ],
+          "service": "orca",
+          "version": "2.16.1-20201208040018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.3",
+            "1.22.2",
+            "1.22.1",
+            "1.22.0"
+          ],
+          "service": "orca",
+          "version": "2.16.0-20200817170018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "front50",
+          "version": "0.26.1-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4",
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "front50",
+          "version": "0.26.0-20201013163321"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3",
+            "1.22.2",
+            "1.22.1"
+          ],
+          "service": "front50",
+          "version": "0.25.1-20200831095512"
+        }
+      ],
+      "version": "0.0.15"
+    },
+    {
+      "compatibility": [
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212020017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.4",
+            "1.23.3"
+          ],
+          "service": "clouddriver",
+          "version": "7.0.3-20201201114456"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.2-20201201112312"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.2"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.1-20201012160101"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "orca",
+          "version": "2.18.0-20201208200018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4"
+          ],
+          "service": "orca",
+          "version": "2.17.1-20201208101954"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "orca",
+          "version": "2.17.0-20201014010017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4"
+          ],
+          "service": "orca",
+          "version": "2.16.1-20201208040018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.3",
+            "1.22.2",
+            "1.22.1",
+            "1.22.0"
+          ],
+          "service": "orca",
+          "version": "2.16.0-20200817170018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "front50",
+          "version": "0.26.1-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4",
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "front50",
+          "version": "0.26.0-20201013163321"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3",
+            "1.22.2",
+            "1.22.1"
+          ],
+          "service": "front50",
+          "version": "0.25.1-20200831095512"
+        }
+      ],
+      "version": "0.0.13"
+    },
+    {
+      "compatibility": [
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212030017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212020017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.4",
+            "1.23.3"
+          ],
+          "service": "clouddriver",
+          "version": "7.0.3-20201201114456"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.2-20201201112312"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.2"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.1-20201012160101"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "orca",
+          "version": "2.18.0-20201208200018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4"
+          ],
+          "service": "orca",
+          "version": "2.17.1-20201208101954"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "orca",
+          "version": "2.17.0-20201014010017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4"
+          ],
+          "service": "orca",
+          "version": "2.16.1-20201208040018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.3",
+            "1.22.2",
+            "1.22.1",
+            "1.22.0"
+          ],
+          "service": "orca",
+          "version": "2.16.0-20200817170018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "front50",
+          "version": "0.26.1-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4",
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "front50",
+          "version": "0.26.0-20201013163321"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3",
+            "1.22.2",
+            "1.22.1"
+          ],
+          "service": "front50",
+          "version": "0.25.1-20200831095512"
+        }
+      ],
+      "version": "0.0.12"
+    },
+    {
+      "compatibility": [
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212030017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212020017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.4",
+            "1.23.3"
+          ],
+          "service": "clouddriver",
+          "version": "7.0.3-20201201114456"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.2-20201201112312"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.2"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.1-20201012160101"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "orca",
+          "version": "2.18.0-20201208200018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4"
+          ],
+          "service": "orca",
+          "version": "2.17.1-20201208101954"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "orca",
+          "version": "2.17.0-20201014010017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4"
+          ],
+          "service": "orca",
+          "version": "2.16.1-20201208040018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.3",
+            "1.22.2",
+            "1.22.1",
+            "1.22.0"
+          ],
+          "service": "orca",
+          "version": "2.16.0-20200817170018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "front50",
+          "version": "0.26.1-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4",
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "front50",
+          "version": "0.26.0-20201013163321"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3",
+            "1.22.2",
+            "1.22.1"
+          ],
+          "service": "front50",
+          "version": "0.25.1-20200831095512"
+        }
+      ],
+      "version": "0.0.11"
+    },
+    {
+      "compatibility": [
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212030017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5"
+          ],
+          "service": "clouddriver",
+          "version": "7.1.0-20201212020017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.4",
+            "1.23.3"
+          ],
+          "service": "clouddriver",
+          "version": "7.0.3-20201201114456"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.2-20201201112312"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.2"
+          ],
+          "service": "clouddriver",
+          "version": "6.11.1-20201012160101"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "orca",
+          "version": "2.18.0-20201208200018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4"
+          ],
+          "service": "orca",
+          "version": "2.17.1-20201208101954"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "orca",
+          "version": "2.17.0-20201014010017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.4"
+          ],
+          "service": "orca",
+          "version": "2.16.1-20201208040018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.22.3",
+            "1.22.2",
+            "1.22.1",
+            "1.22.0"
+          ],
+          "service": "orca",
+          "version": "2.16.0-20200817170018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "front50",
+          "version": "0.26.1-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.23.5",
+            "1.23.4",
+            "1.23.3",
+            "1.23.2",
+            "1.23.1",
+            "1.23.0"
+          ],
+          "service": "front50",
+          "version": "0.26.0-20201013163321"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.22.4",
+            "1.22.3",
+            "1.22.2",
+            "1.22.1"
+          ],
+          "service": "front50",
+          "version": "0.25.1-20200831095512"
+        }
+      ],
+      "version": "0.0.10"
+    }
+  ]
+}
