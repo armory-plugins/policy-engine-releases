@@ -1,89 +1,96 @@
 [
-    {
-      "id": "Armory.PolicyEngine",
-      "description": "This plugin provides support for validating pipelines with the policy engine.",
-      "provider": "https://github.com/claymccoy",
-      "releases": [
-        {
-          "version": "0.0.16",
-          "date": "2020-08-14T16:24:45.145Z",
-          "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
-          "sha512sum": "997d0f7f8b08b3ba61d82c55aacb95d4f8269b9fee0be1a52fc0278e983c2e0a013811d9733a53f14856e2149cabbd701b6ec482a68af7b996cbdc9e02217ab3",
-          "state": "RELEASE",
-          "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.16/policy-engine-v0.0.16.zip"
-        },
-        {
-          "version": "0.0.15",
-          "date": "2020-08-14T14:52:28.932Z",
-          "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
-          "sha512sum": "3f1162e59555e1ef4c4a9a6e832ece130786c7715a49cd5b6cb47eddb07de5834b7261cb0c624c6c8268f75d4495df98133c7c8524fe1d97f0d2e1ac41081724",
-          "state": "RELEASE",
-          "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.15/policy-engine-v0.0.15.zip"
-        },
-        {
-          "version": "0.0.14-rc3",
-          "date": "2020-07-17T16:10:04.499Z",
-          "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
-          "sha512sum": "c00d52d5c93036ae08bc0cf3d9913236c26568e9baf05c7314f15dc29616c7493517ac3dbddbfec2dfcc2b3833ecf0fe338ae73cb6ce753bf75430285283c362",
-          "state": "RELEASE",
-          "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.14-rc3/policy-engine-v0.0.14-rc3.zip"
-        },
-        {
-          "version": "0.0.13",
-          "date": "2020-06-24T15:49:45.918Z",
-          "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
-          "sha512sum": "0eb50dae976a7ddeb3e8cec262a5e19524b61395ccf68c73da53ab8d864318ce2bbba968ec2c1e15f92fd52f40b1b3685e519c079773a7ad9c8757a814320477",
-          "state": "RELEASE",
-          "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.13/policy-engine-v0.0.13.zip"
-        },
-        {
-          "version": "0.0.12",
-          "date": "2020-06-08T16:17:48.719Z",
-          "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
-          "sha512sum": "e776fd0fdf63f7f8c43711d476fed68594a5dc045857c002c03a77f5a5ec986fe066e136f1185fc1c0fd804c02e583321f33bcae1eccc3187b3a023718eebc84",
-          "state": "RELEASE",
-          "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.12/policy-engine-v0.0.12.zip"
-        },
-        {
-          "version": "0.0.11",
-          "date": "2020-06-05T17:39:40.219Z",
-          "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
-          "sha512sum": "7e4ad66bc842970f9388d2edf61659fa9bfd2e646c604bd8379330c3a5c0a75c1f36a03fe2337fce1fb0c6d1f319f723074e209aec00b9dff7cd84fff64cd0e2",
-          "state": "RELEASE",
-          "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.11/policy-engine-v0.0.11.zip"
-        },
-        {
-          "version": "0.0.10",
-          "date": "2020-05-26T14:41:42.663Z",
-          "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
-          "sha512sum": "a1ab74b39e21c895d4e1926d5416abc61b934558ee468c27de3190f27eabde6330f6607fa632300d4c02bf6ced49499c619f737be06798f59d84a0db1ce8a85d",
-          "state": "RELEASE",
-          "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.10/policy-engine-v0.0.10.zip"
-        },
-        {
-          "version": "0.0.9",
-          "date": "2020-05-18T20:23:11.875Z",
-          "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
-          "sha512sum": "c7b1ae4ced6efc8f749e132f15ad510eb1a3da8b329478d9f9bc75ee0c5b570b650f3373fbabd3984ac115218d09b5c3f12fd8305e86aa76c7af6d4d54ea3f77",
-          "state": "RELEASE",
-          "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.9/policy-engine-v0.0.9.zip"
-        },
-        {
-          "version": "0.0.8",
-          "date": "2020-05-08T20:02:57.943Z",
-          "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
-          "sha512sum": "00bc8c0e565aa982b63cb4bf38336f822006f0fedb07f078170dbacedd246e311b984837a24b592057c5bb1c11929a2ecb2688a6b192374a802ba91dd149cf94",
-          "state": "RELEASE",
-          "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.8/policy-engine-v0.0.8.zip"
-        },
-        {
-          "version": "0.0.7",
-          "date": "2020-05-05T20:27:24.526Z",
-          "requires": "front50>=0.0.0,orca>=0.0.0",
-          "sha512sum": "afe296681a7aef6483f3c516676f7a8491fa661761f833d2ac1bd4483847a318901411ec4c4d4c62d4b05fba280a9ea91619016536c2a876c9d4f85d11fa28a5",
-          "state": "RELEASE",
-          "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.7/policy-engine-v0.0.7.zip"
-        }
-      ]
-    }
-  ]
+  {
+    "id": "Armory.PolicyEngine",
+    "description": "This plugin provides support for validating pipelines with the policy engine.",
+    "provider": "https://github.com/claymccoy",
+    "releases": [
+      {
+        "version": "0.0.24",
+        "date": "2021-05-04T22:17:08.855147Z",
+        "requires": "clouddriver>=0.0.0,front50>=0.0.0,gate>=0.0.0,orca>=0.0.0",
+        "sha512sum": "b02be7ec6e8c5f8df93ee8fe558937eb427eec9abda68efc4863db8f070e14fed21051ef836b2cc82d0c9598bd5bf6c7104ce5a6e84f6cb47c451d51d66428d8",
+        "url": "https://github.com/armory-plugins/policy-engine/releases/download/v0.0.24/policy-engine-v0.0.24.zip"
+      },
+      {
+        "version": "0.0.16",
+        "date": "2020-08-14T16:24:45.145Z",
+        "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
+        "sha512sum": "997d0f7f8b08b3ba61d82c55aacb95d4f8269b9fee0be1a52fc0278e983c2e0a013811d9733a53f14856e2149cabbd701b6ec482a68af7b996cbdc9e02217ab3",
+        "state": "RELEASE",
+        "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.16/policy-engine-v0.0.16.zip"
+      },
+      {
+        "version": "0.0.15",
+        "date": "2020-08-14T14:52:28.932Z",
+        "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
+        "sha512sum": "3f1162e59555e1ef4c4a9a6e832ece130786c7715a49cd5b6cb47eddb07de5834b7261cb0c624c6c8268f75d4495df98133c7c8524fe1d97f0d2e1ac41081724",
+        "state": "RELEASE",
+        "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.15/policy-engine-v0.0.15.zip"
+      },
+      {
+        "version": "0.0.14-rc3",
+        "date": "2020-07-17T16:10:04.499Z",
+        "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
+        "sha512sum": "c00d52d5c93036ae08bc0cf3d9913236c26568e9baf05c7314f15dc29616c7493517ac3dbddbfec2dfcc2b3833ecf0fe338ae73cb6ce753bf75430285283c362",
+        "state": "RELEASE",
+        "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.14-rc3/policy-engine-v0.0.14-rc3.zip"
+      },
+      {
+        "version": "0.0.13",
+        "date": "2020-06-24T15:49:45.918Z",
+        "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
+        "sha512sum": "0eb50dae976a7ddeb3e8cec262a5e19524b61395ccf68c73da53ab8d864318ce2bbba968ec2c1e15f92fd52f40b1b3685e519c079773a7ad9c8757a814320477",
+        "state": "RELEASE",
+        "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.13/policy-engine-v0.0.13.zip"
+      },
+      {
+        "version": "0.0.12",
+        "date": "2020-06-08T16:17:48.719Z",
+        "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
+        "sha512sum": "e776fd0fdf63f7f8c43711d476fed68594a5dc045857c002c03a77f5a5ec986fe066e136f1185fc1c0fd804c02e583321f33bcae1eccc3187b3a023718eebc84",
+        "state": "RELEASE",
+        "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.12/policy-engine-v0.0.12.zip"
+      },
+      {
+        "version": "0.0.11",
+        "date": "2020-06-05T17:39:40.219Z",
+        "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
+        "sha512sum": "7e4ad66bc842970f9388d2edf61659fa9bfd2e646c604bd8379330c3a5c0a75c1f36a03fe2337fce1fb0c6d1f319f723074e209aec00b9dff7cd84fff64cd0e2",
+        "state": "RELEASE",
+        "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.11/policy-engine-v0.0.11.zip"
+      },
+      {
+        "version": "0.0.10",
+        "date": "2020-05-26T14:41:42.663Z",
+        "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
+        "sha512sum": "a1ab74b39e21c895d4e1926d5416abc61b934558ee468c27de3190f27eabde6330f6607fa632300d4c02bf6ced49499c619f737be06798f59d84a0db1ce8a85d",
+        "state": "RELEASE",
+        "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.10/policy-engine-v0.0.10.zip"
+      },
+      {
+        "version": "0.0.9",
+        "date": "2020-05-18T20:23:11.875Z",
+        "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
+        "sha512sum": "c7b1ae4ced6efc8f749e132f15ad510eb1a3da8b329478d9f9bc75ee0c5b570b650f3373fbabd3984ac115218d09b5c3f12fd8305e86aa76c7af6d4d54ea3f77",
+        "state": "RELEASE",
+        "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.9/policy-engine-v0.0.9.zip"
+      },
+      {
+        "version": "0.0.8",
+        "date": "2020-05-08T20:02:57.943Z",
+        "requires": "clouddriver>=0.0.0,front50>=0.0.0,orca>=0.0.0",
+        "sha512sum": "00bc8c0e565aa982b63cb4bf38336f822006f0fedb07f078170dbacedd246e311b984837a24b592057c5bb1c11929a2ecb2688a6b192374a802ba91dd149cf94",
+        "state": "RELEASE",
+        "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.8/policy-engine-v0.0.8.zip"
+      },
+      {
+        "version": "0.0.7",
+        "date": "2020-05-05T20:27:24.526Z",
+        "requires": "front50>=0.0.0,orca>=0.0.0",
+        "sha512sum": "afe296681a7aef6483f3c516676f7a8491fa661761f833d2ac1bd4483847a318901411ec4c4d4c62d4b05fba280a9ea91619016536c2a876c9d4f85d11fa28a5",
+        "state": "RELEASE",
+        "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.0.7/policy-engine-v0.0.7.zip"
+      }
+    ]
+  }
+]
