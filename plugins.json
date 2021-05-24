@@ -5,6 +5,13 @@
     "provider": "https://github.com/claymccoy",
     "releases": [
       {
+        "version": "0.1.0",
+        "date": "2021-05-21T20:38:19.871895Z",
+        "requires": "clouddriver>=0.0.0,front50>=0.0.0,gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+        "sha512sum": "c279430c0e637d157b6c17eaab2c6c029dd599f9ddce96979b530aba12e0b625528127cfccf8665634a433fbccd4a6a6e4ff13c71a7baa098da3658185179058",
+        "url": "https://github.com/armory-plugins/policy-engine/releases/download/v0.1.0/policy-engine-v0.1.0.zip"
+      },
+      {
         "version": "0.0.27",
         "date": "2021-05-19T14:33:59.114156Z",
         "requires": "clouddriver>=0.0.0,front50>=0.0.0,gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
