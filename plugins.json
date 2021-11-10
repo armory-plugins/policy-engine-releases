@@ -6,6 +6,13 @@
     "releases": [
       {
         "version": "0.2.0",
+        "date": "2021-11-10T22:24:59.183404Z",
+        "requires": "clouddriver>=0.0.0,front50>=0.0.0,gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+        "sha512sum": "fc88f347690760a9efad123a7a7700eed998388e34f715c33af0b52b620de1ac0280cbfec3a4ca0bd2bb112fbbd86d512b32d8e512854afdc5e666ca02067ed3",
+        "url": "https://github.com/armory-plugins/policy-engine-releases/releases/download/v0.2.0/policy-engine-v0.2.0.zip"
+      },
+      {
+        "version": "0.2.0",
         "date": "2021-11-10T21:19:11.591548Z",
         "requires": "clouddriver>=0.0.0,front50>=0.0.0,gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
         "sha512sum": "1d2dac9f4bb095317c74c3f251feb094dac9957567646f3ae4fa87e08545849cbad09c7aba5ee98b0d038cfe10889a20044b716843b8b029508ada1941e664f7",
